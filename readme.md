@@ -25,7 +25,7 @@ This repository provides a fullstack boilerplate powered by [Bun](https://bun.sh
 
 ```sh
 git clone https://github.com/your-username/bun-setup.git
-cd bun-setup
+cd your-repo-name
 docker compose up --build
 ```
 
@@ -33,7 +33,7 @@ docker compose up --build
 
 ```sh
 git clone https://github.com/your-username/bun-setup.git
-cd bun-setup
+cd your-repo-name
 bun install
 ```
 
