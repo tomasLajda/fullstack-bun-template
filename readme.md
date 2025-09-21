@@ -16,7 +16,7 @@ This repository provides a fullstack boilerplate powered by [Bun](https://bun.sh
 
 - [Bun](https://bun.sh/docs/installation) installed globally (for local development).
 - [Docker](https://www.docker.com/get-started) installed (recommended for all environments).
-- [PostgreSQL](https://www.postgresql.org/) (if running without Docker).
+- [PostgreSQL](https://www.postgresql.org/) Database server running in docker.
 - Git (for cloning the repository).
 
 ## Installation
