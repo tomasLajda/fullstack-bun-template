@@ -14,15 +14,15 @@ services:
       - ${DB_PORT}:${DB_PORT}
 
   app:
-    build: ./app
+    build: .
     container_name: app
     env_file:
       - .env
     ports:
       - ${APP_PORT}:${APP_PORT}
     volumes:
-      - ./app/src:/app/src
-      - ./app/package.json:/app/package.json
+      - ./src:/app/src
+      - ./package.json:/app/package.json
     depends_on:
       - db
 
