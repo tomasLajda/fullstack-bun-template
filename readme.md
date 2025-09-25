@@ -1,6 +1,6 @@
 # Bun Fullstack Setup
 
-This repository provides a fullstack boilerplate powered by [Bun](https://bun.sh/), featuring Docker support for streamlined setup. The frontend resides in the `/client` folder, while the backend API is located in `/api`.
+This repository provides a fullstack boilerplate powered by [Bun](https://bun.sh/), featuring Docker support for streamlined setup. The frontend code is in `src/client/`, while the backend API is in `src/api/`.
 
 ## Features
 
@@ -8,7 +8,7 @@ This repository provides a fullstack boilerplate powered by [Bun](https://bun.sh
 - **React**: Modern frontend framework for building user interfaces.
 - **Hono**: Fast, lightweight web framework for the backend API.
 - **PostgreSQL**: Robust relational database for data persistence.
-- **Fullstack**: Includes both backend (`/api`) and frontend (`/client`) setup.
+- **Fullstack**: Includes both backend (`src/api/`) and frontend (`src/client/`) setup.
 - **Modern Tooling**: Uses Bun for package management, scripts, and development server.
 - **Dockerized**: Simple containerized development.
 
@@ -62,9 +62,9 @@ bun install
 
 ## Project Structure
 
-- `/app/src/client` - React frontend application source code.
-- `/app/src/api` - Hono backend API source code.
-- `/app/public` - Static assets.
+- `src/client/` - React frontend application source code.
+- `src/api/` - Hono backend API source code.
+- `src/public/` - Static assets.
 - `package.json` - Project metadata and scripts.
 - `docker-compose.yml` - Docker configuration with PostgreSQL database.
 - `Dockerfile` - Container configuration for the application.
